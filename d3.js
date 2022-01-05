@@ -81,12 +81,7 @@
                 `<p><strong>Sale Price</strong>: ${d.Sale_Price}<br />` +
                 `<p><strong>Address</strong>: ${d.address_only}<br />` +
                 `<p><strong>Sq Ft</strong>: ${d.Sq_Ft}<br />` +
-                `<p><strong>Price Per Sq Ft</strong>: ${d.price_per_sqft}<br />` +
-                `<p><strong>List Date</strong>: ${d.List_Date}<br />` +
-                `<p><strong>Close Date</strong>: ${d.Close_Date}<br />` +
-                `<p><strong>Days on Market</strong>: ${d.days_on_market}<br />` +
-                `<p><strong>Agent</strong>: ${d.Agent}<br />` +
-                `<p><strong>Buyer Agent</strong>: ${d.Buyer_Agent}<br />`);
+                `<p><strong>Price Per Sq Ft</strong>: ${d.price_per_sqft}<br />`);
       })
       .on("mousemove", function(e) {
         tooltip
